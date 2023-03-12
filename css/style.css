@@ -1,0 +1,63 @@
+body {
+  background: url(/images/graveyard.png) center center / cover no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.game-container {
+  background-color: rgba(1, 1, 1, 0.227);
+  padding: 50px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+input {
+  border: none;
+  margin: 10px;
+  padding: 10px;
+  width: 240px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 3px;
+}
+
+button {
+  padding: 10px;
+  width: 100px;
+  margin: 10px;
+  background: #7d98fb76;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 40px;
+}
+
+button:hover {
+  background: #7d98fb;
+}
+
+h1 {
+  color: rgb(240, 240, 240);
+  text-shadow: 1px 1px 30px rgba(51, 1, 101, 0.669);
+  margin-top: 0;
+}
+
+p {
+  margin: 10px;
+}
+

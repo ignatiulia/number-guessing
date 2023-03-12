@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Guess the Number!</title>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet"
+  >
+  <!--Stylesheet-->
+  <link
+    rel="stylesheet"
+    href="css/style.css"
+  >
+</head>
+
+<body>
+  <div class="game-container">
+    <header>
+      <h1>I am thinking of a number between 1-100.</h1>
+    </header>
+
+    <section>
+      <p id="answer">I challenge you to guess it.</p>
+
+      <form onsubmit="return false;">
+        <input
+          type="number"
+          name="number"
+          id="number"
+          placeholder="Type a number ... "
+        >
+
+        <button
+          type="submit"
+          id="submit"
+        >Let's see!</button>
+      </form>
+    </section>
+
+    <p
+      id="tries"
+      class="tries"
+    >Your tries: <span>0</span></p>
+  </div>
+  <!--Script-->
+  <script src="app.js"></script>
+</body>
+
+</html>
